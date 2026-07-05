@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Travel Online | Mantra Travels</title>
-    <meta name="description" content="Register your details securely using our clean, modern online trip reservation form.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="logo">Mantra <span>Travels</span></div>
-        <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">☰</button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">☰</button>
         <nav id="navMenu">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -24,32 +23,32 @@
         </nav>
     </header>
 
-    <main style="max-width: 600px;">
-        <h1 class="page-title">Trip Booking Registration</h1>
-        <p class="page-subtitle">Submit the form below to lock in your seasonal prices.</p>
+    <main style="max-width: 650px;">
+        <h1 class="page-title">Trip Registration</h1>
+        <p class="page-subtitle">Submit your verification details securely below to secure current slots.</p>
         
-        <form onsubmit="event.preventDefault(); alert('Thank you! Your details have been submitted. A travel coordinator will email your receipt shortly.');" style="background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-            <div style="margin-bottom: 15px;">
-                <label style="display:block; margin-bottom: 5px; font-weight:600;">Full Name</label>
-                <input type="text" required placeholder="Chris Evans" style="width:100%; padding: 10px; border: 1px solid #ccc; border-radius:4px;">
+        <form onsubmit="event.preventDefault(); alert('Submission Complete! Our reservation desk will email your digital itinerary details shortly.');">
+            <div>
+                <label>Full Legal Name</label>
+                <input type="text" required placeholder="e.g. Alex Johnson">
             </div>
-            <div style="margin-bottom: 15px;">
-                <label style="display:block; margin-bottom: 5px; font-weight:600;">Email Address</label>
-                <input type="email" required placeholder="chris@example.com" style="width:100%; padding: 10px; border: 1px solid #ccc; border-radius:4px;">
+            <div>
+                <label>Contact Email Address</label>
+                <input type="email" required placeholder="alex@example.com">
             </div>
-            <div style="margin-bottom: 15px;">
-                <label style="display:block; margin-bottom: 5px; font-weight:600;">Target Package</label>
-                <select style="width:100%; padding: 10px; border: 1px solid #ccc; border-radius:4px;">
-                    <option>Heritage Classic - $349</option>
-                    <option>Beach Front Luxury - $299</option>
-                    <option>Mountain Log Cabin - $419</option>
+            <div>
+                <label>Select Desired Package Tier</label>
+                <select>
+                    <option>Heritage Explorer - $349</option>
+                    <option>Coastal Luxury - $299</option>
+                    <option>Alpine Cabin - $419</option>
                 </select>
             </div>
-            <div style="margin-bottom: 20px;">
-                <label style="display:block; margin-bottom: 5px; font-weight:600;">Target Departure Date</label>
-                <input type="date" required style="width:100%; padding: 10px; border: 1px solid #ccc; border-radius:4px;">
+            <div>
+                <label>Target Travel Commencement Date</label>
+                <input type="date" required>
             </div>
-            <button type="submit" class="cta-btn" style="width: 100%; border: none; font-size:16px; cursor: pointer;">Submit Reservation Enquiry</button>
+            <button type="submit" class="cta-btn" style="width: 100%; border: none; font-size:16px; cursor: pointer; margin-top: 10px;">Submit Reservation Request</button>
         </form>
     </main>
 
