@@ -1,4 +1,4 @@
-// Mobile Interactive Navigation Dropdown Menu
+// Clean & Secure Mobile Navigation Interface Toggle
 document.addEventListener('DOMContentLoaded', () => {
     const menuToggle = document.getElementById('menuToggle');
     const navMenu = document.getElementById('navMenu');
